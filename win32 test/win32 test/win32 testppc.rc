@@ -1,0 +1,219 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resourceppc.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#include "resdefce.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_WIN32TEST           ICON                    "win32 test.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU 
+BEGIN
+    POPUP "Help"
+    BEGIN
+        MENUITEM "Imformation",                 IDM_HELP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_WIN32TEST ACCELERATORS 
+BEGIN
+    "A",            IDM_HELP_ABOUT,         VIRTKEY, CONTROL, NOINVERT
+    "Q",            IDM_OK,                 VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG  0, 0, 156, 129
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION
+EXSTYLE 0x80000000L
+CAPTION "WIN32I 정보"
+FONT 9, "MS Sans Serif"
+BEGIN
+    ICON            IDI_WIN32TEST,IDC_STATIC_1,12,12,20,20,SS_REALSIZEIMAGE
+    LTEXT           "WIN32I 버전 1.0",IDC_STATIC_2,12,36,70,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010",IDC_STATIC_3,12,48,88,8
+    LTEXT           "By phk952(박형기)",IDC_STATIC_4,13,60,88,8
+END
+
+IDD_ABOUTBOX_WIDE DIALOG  0, 0, 210, 129
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION
+EXSTYLE 0x80000000L
+CAPTION "WIN32I 정보"
+FONT 9, "MS Sans Serif"
+BEGIN
+    ICON            IDI_WIN32TEST,IDC_STATIC_1,12,12,20,20,SS_REALSIZEIMAGE
+    LTEXT           "WIN32I 버전 1.0",IDC_STATIC_2,48,12,66,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010",IDC_STATIC_3,48,24,66,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 149
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 122
+    END
+
+    IDD_ABOUTBOX_WIDE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 122
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resourceppc.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#include ""resdefce.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#include ""win32testppc.rc2""  // Microsoft Visual C++ 이외의 다른 도구에서 편집한 리소스입니다.\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP3             BITMAP                  "testimage\\blue_blank.bmp"
+IDB_BITMAP4             BITMAP                  "testimage\\weather_s.bmp"
+IDB_BITMAP5             BITMAP                  "testimage\\browser_s.bmp"
+IDB_BITMAP6             BITMAP                  "testimage\\cal_blank_s.bmp"
+IDB_BITMAP7             BITMAP                  "testimage\\calc_s.bmp"
+IDB_BITMAP8             BITMAP                  "testimage\\chat_blank.bmp"
+IDB_BITMAP9             BITMAP                  "testimage\\clock_blank.bmp"
+IDB_BITMAP10            BITMAP                  "testimage\\graph_s.bmp"
+IDB_BITMAP11            BITMAP                  "testimage\\ipod_s.bmp"
+IDB_BITMAP12            BITMAP                  "testimage\\mail_s.bmp"
+IDB_BITMAP13            BITMAP                  "testimage\\map_s.bmp"
+IDB_BITMAP14            BITMAP                  "testimage\\notes_s.bmp"
+IDB_BITMAP15            BITMAP                  "testimage\\phone_s.bmp"
+IDB_BITMAP16            BITMAP                  "testimage\\photo_s.bmp"
+IDB_BITMAP17            BITMAP                  "testimage\\SMS_s.bmp"
+IDB_BITMAP18            BITMAP                  "testimage\\tools_s.bmp"
+IDB_BITMAP19            BITMAP                  "testimage\\wallpaper_s.bmp"
+IDB_BITMAP20            BITMAP                  "testimage\\bitmap20.bmp"
+IDB_BITMAP21            BITMAP                  "testimage\\bitmap21.bmp"
+IDB_BITMAP22            BITMAP                  "testimage\\bitmap22.bmp"
+IDB_BITMAP23            BITMAP                  "testimage\\bitmap23.bmp"
+IDB_BITMAP24            BITMAP                  "testimage\\bitmap24.bmp"
+IDB_BITMAP25            BITMAP                  "testimage\\bitmap25.bmp"
+IDB_BITMAP26            BITMAP                  "testimage\\bitmap26.bmp"
+IDB_BACKGROUND          BITMAP                  "testimage\\bitmap27.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "WIN32I"
+    IDC_WIN32TEST           "WIN32I"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OK                  "OK"
+    IDS_HELP                "Help"
+END
+
+#endif    // 한국어 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE 18, 1
+#pragma code_page(949)
+#include "win32testppc.rc2"  // Microsoft Visual C++ 이외의 다른 도구에서 편집한 리소스입니다.
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
